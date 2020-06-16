@@ -9,4 +9,8 @@ host: ipcmk -Q
 containe: ipcs -q
 sudo ./ipc_namespace
 
+## pid
 
+mount -t proc proc /proc
+
+推出再執行一次
